@@ -1,0 +1,72 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  display: block;
+  width: 956px;
+  height: 120px;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 30px;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 24.6px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: -0.03em;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.main-desc {
+  width: 1150px;
+  height: 500px;
+  background-image: url("/resources/images/main.png");
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+
+.about {
+  display: block;
+  width: 1048px;
+  height: 366px;
+  font-size: 45px;
+  line-height: 61.47px;
+  margin-bottom: 30px;
+  letter-spacing: -0.03em;
+}
+
+.main-desc-text {
+  display: block;
+  width: 430px;
+  height: 81px;
+  font-size: 20px;
+  line-height: 27px;
+  color: white;
+  padding-top: 379px;
+  padding-left: 40px;
+  letter-spacing: -0.03em;
+}
+
+.more-services {
+  display: block;
+  background-color: #ad1818;
+  width: 185px;
+  height: 27px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px;
+  margin-bottom: 150px;
+  letter-spacing: -0.03em;
+}
