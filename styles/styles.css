@@ -1,6 +1,7 @@
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
+  color: #121212;
 }
 
 h1 {
@@ -21,17 +22,38 @@ h2 {
   letter-spacing: -0.03em;
 }
 
-.container {
+.container-white {
   width: 1150px;
   margin: 0 auto;
 }
 
+.container-black {
+  background-color: #121212;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .main-desc {
+  position: relative;
   width: 1150px;
   height: 500px;
   background-image: url("/resources/images/main.png");
   background-repeat: no-repeat;
   margin-bottom: 150px;
+}
+
+.main-desc-text {
+  position: absolute;
+  display: block;
+  width: 430px;
+  height: 81px;
+  font-size: 20px;
+  line-height: 27px;
+  color: white;
+  letter-spacing: -0.03em;
+  left: 40px;
+  bottom: 40px;
 }
 
 .about {
@@ -41,18 +63,6 @@ h2 {
   font-size: 45px;
   line-height: 61.47px;
   margin-bottom: 30px;
-  letter-spacing: -0.03em;
-}
-
-.main-desc-text {
-  display: block;
-  width: 430px;
-  height: 81px;
-  font-size: 20px;
-  line-height: 27px;
-  color: white;
-  padding-top: 379px;
-  padding-left: 40px;
   letter-spacing: -0.03em;
 }
 
@@ -68,5 +78,75 @@ h2 {
   color: white;
   padding: 20px 40px;
   margin-bottom: 150px;
+  letter-spacing: -0.03em;
+}
+
+.project-item {
+  height: 548px;
+  margin-bottom: 90px;
+}
+
+.project-image {
+  height: 450px;
+  margin-bottom: 15px;
+}
+
+.project-name {
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  margin-bottom: 15px;
+}
+
+.more-info {
+  display: block;
+  width: 127px;
+  height: 27px;
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  color: #ad1818;
+  text-decoration: none;
+}
+
+.look-all-projects {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 153px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  color: #ad1818;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 150px;
+}
+
+.look-all-projects:hover {
+  background-color: #ad1818;
+  color: white;
+}
+
+.service-item {
+  margin-bottom: 60px;
+}
+
+.service-item:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.service-image {
+  height: 270px;
+  margin-bottom: 15px;
+}
+
+.service-name {
+  font-size: 30px;
+  line-height: 41px;
   letter-spacing: -0.03em;
 }
