@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
@@ -22,8 +26,53 @@ h2 {
   letter-spacing: -0.03em;
 }
 
+.logo {
+  display: inline-block;
+  width: 126.89px;
+  height: 21.42px;
+}
+
+.nav-section {
+  margin-top: 32.82px;
+  margin-bottom: 70px;
+}
+
+.nav-container {
+  position: relative;
+  width: 1151px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+  margin-left: 60px;
+}
+
+.active {
+  border-bottom: 1px solid black;
+  opacity: 50%;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid black;
+  opacity: 50%;
+}
+
 .container-white {
   width: 1150px;
+
   margin: 0 auto;
 }
 
@@ -149,4 +198,115 @@ h2 {
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.03em;
+}
+
+.full-screen {
+  position: relative;
+  background-image: url("/resources/images/full-screen.png");
+  height: 717px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 150px;
+}
+
+.fs-text {
+  display: block;
+  width: 443px;
+  height: 82px;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  left: 125px;
+  bottom: 60px;
+}
+
+.phone-icon {
+  position: relative;
+}
+
+.phone-icon:before {
+  content: "";
+  position: absolute;
+  background-image: url("/resources/icons/phone.png");
+  display: block;
+  width: 13px;
+  height: 22px;
+  top: -36.6px;
+}
+
+.phone-number {
+  display: block;
+  height: 60px;
+  width: 472px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.mail {
+  display: block;
+  height: 70px;
+  width: 412px;
+  opacity: 50%;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-decoration: none;
+  border-bottom: 2px solid #121212;
+}
+
+.container-contacts {
+  margin-bottom: 150px;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  background-color: #121212;
+  padding-bottom: 30px;
+}
+
+.footer_nav {
+  display: inline-block;
+  width: 450px;
+  height: 25px;
+  margin-top: 60px;
+  margin-bottom: 85px;
+}
+
+.footer-link {
+  color: white;
+  font-size: 18px;
+  line-height: 24.6px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+
+.footer-link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.footer-link-active {
+  opacity: 50%;
+}
+
+.footer-link:hover {
+  opacity: 50%;
+}
+
+.footer-text {
+  color: white;
+  font-size: 20px;
+  line-height: 27.4px;
+  letter-spacing: -0.03em;
+  opacity: 50%;
 }
