@@ -1,0 +1,53 @@
+.logo {
+  display: inline-block;
+  width: 126.89px;
+  height: 21.42px;
+}
+
+.nav-section {
+  margin-top: 32.82px;
+  margin-bottom: 70px;
+}
+
+.nav-container {
+  position: relative;
+  width: 1151px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+  margin-left: 60px;
+}
+
+.active {
+  border-bottom: 1px solid black;
+  opacity: 50%;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid black;
+  opacity: 50%;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 1050px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 500px) {
+}
