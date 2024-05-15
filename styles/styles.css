@@ -7,6 +7,22 @@
 @import url("/styles/fullscreen.css");
 @import url("/styles/contacts.css");
 @import url("/styles/footer.css");
+@import url("/styles/popup.css");
+div,
+h1,
+h2,
+a,
+p,
+li,
+input {
+  letter-spacing: -0.03em;
+}
+
+a,
+li {
+  text-decoration: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -17,6 +33,10 @@ body {
   color: #121212;
 }
 
+.body_fixed {
+  overflow: hidden;
+}
+
 h1 {
   display: block;
   width: 956px;
@@ -24,7 +44,6 @@ h1 {
   font-size: 60px;
   line-height: 60px;
   margin-bottom: 30px;
-  letter-spacing: -0.03em;
 }
 
 h2 {
@@ -32,7 +51,6 @@ h2 {
   line-height: 24.6px;
   text-transform: uppercase;
   margin-bottom: 30px;
-  letter-spacing: -0.03em;
 }
 
 .container {

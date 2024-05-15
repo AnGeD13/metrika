@@ -13,7 +13,6 @@
   left: 125px;
   font-size: 22px;
   line-height: 30px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
   z-index: 100;
 }
@@ -36,8 +35,6 @@
 .slide_active {
   position: relative;
   opacity: 1;
-  top: 0;
-  left: 0;
 }
 
 .slide__title {
@@ -49,7 +46,6 @@
   height: 82px;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
 }
 
 .controls {
@@ -60,11 +56,14 @@
   top: 515px;
 }
 
-.control-prev {
-  background-image: url("/resources/icons/arrow.png");
+.control-item {
   width: 40px;
   height: 40px;
   opacity: 50%;
+}
+
+.control-prev {
+  background-image: url("/resources/icons/arrow.png");
 }
 
 .control-prev:hover {
@@ -74,10 +73,7 @@
 
 .control-next {
   background-image: url("/resources/icons/arrow.png");
-  width: 40px;
-  height: 40px;
   transform: scaleX(-1);
-  opacity: 50%;
 }
 
 .control-next:hover {

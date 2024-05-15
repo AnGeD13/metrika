@@ -14,7 +14,6 @@
 .project-name {
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   margin-bottom: 15px;
 }
 
@@ -24,9 +23,7 @@
   height: 27px;
   font-size: 20px;
   line-height: 27.32px;
-  letter-spacing: -0.03em;
   color: #ad1818;
-  text-decoration: none;
 }
 
 .look-all-projects {
@@ -41,7 +38,6 @@
   color: #ad1818;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   text-align: center;
   text-decoration: none;
   margin-bottom: 150px;

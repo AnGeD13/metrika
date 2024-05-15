@@ -18,17 +18,12 @@
 .comment__title {
   font-size: 45px;
   line-height: 61.5px;
-  letter-spacing: -0.03em;
   margin-bottom: 14px;
 }
 
 .comment__text {
   font-size: 22px;
   line-height: 30px;
-  letter-spacing: -0.03em;
-}
-
-@media (max-width: 1199px) {
 }
 
 @media (max-width: 1050px) {
@@ -51,11 +46,6 @@
     font-size: 20px;
     line-height: 27.3px;
   }
-}
-@media (max-width: 767px) {
-}
-
-@media (max-width: 670px) {
 }
 
 @media (max-width: 500px) {

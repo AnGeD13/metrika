@@ -13,20 +13,43 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <!-- <div class="nav-section">
-        <div class="nav-container">
-            <a class="logo" href="/">
-                <img src="/resources/images/nav.png" alt="логотип">
-            </a>
-            <div class="nav">
-                <a href="#about" class="nav-link active">о нас</a>
-                <a href="#projects" class="nav-link">проекты</a>
-                <a href="#services" class="nav-link">услуги</a>
-                <a href="#contacts" class="nav-link">контакты</a>
+    <div class="container">
+        <div class="nav-section">
+            <div class="nav-container">
+                <a class="logo" href="/">
+                    <img src="/resources/images/nav.png" alt="logo" class="nav__logo">
+                </a>
+                <ul class="nav">
+                    <li href="#about" class="nav-link active">о нас</li>
+                    <li href="#projects" class="nav-link">проекты</li>
+                    <li href="#services" class="nav-link">услуги</li>
+                    <li href="#contacts" class="nav-link">контакты</li>
+                </ul>
+                <div class="burger-btn js-burger-btn">
+                </div>
             </div>
         </div>
-    </div> -->
-
+    </div>
+    <div class="burger js-burger">
+        <div class="burger__section">
+            <div class="burger__content">
+                <div class="burger__logo">
+                    <img src="/resources/images/nav.png" alt="nav_logo" class="burger__logo-img">
+                </div>
+                <ul class="burger__nav">
+                    <li href="#about" class="burger-link">о нас</li>
+                    <li href="#projects" class="burger-link">проекты</li>
+                    <li href="#services" class="burger-link">услуги</li>
+                    <li href="#contacts" class="burger-link">контакты</li>
+                </ul>
+                <div class="burger__contacts js-burger__content">
+                    <p class="contacts__text">для связи:</p>
+                    <a href="tel:+79358954535" class="contacts-item burger__tel">+7 935 895-45-35</a>
+                    <a href="mailto:hello@mail.com" class="contacts-item burger__mail">hello@mail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <h1>
             Современные и стильные интерьеры для комфортной жизни
@@ -75,7 +98,7 @@
                 <a class="more-info" href="">Подробнее →</a>
             </li>
 
-            <a class="look-all-projects" href="">Смотреть все проекты</a>
+            <a class="look-all-projects" href="/">Смотреть все проекты</a>
         </ul>
     </div>
     <div class="container container-black">
@@ -106,7 +129,38 @@
                 </li>
             </ul>
 
-            <a class="go-to-service" href="">Заказать услугу</a>
+            <a class="go-to-service js-btn">Заказать услугу</a>
+        
+            <div class="popup js-popup">
+                <div class="popup__content js-popup__content">
+                    <p class="popup__title">Заказать услугу</p>
+                    <div class="popup__tip">
+                        Заполните форму, мы свяжемся с вами в течение суток
+                    </div>
+                    <form class="popup_data">
+                        <input 
+                        type="text"
+                        name="name"
+                        placeholder="Имя"
+                        >
+                        <input 
+                        type="email"
+                        name="email"
+                        placeholder="Электронная почта"
+                        >
+                        <input 
+                        type="tel"
+                        name="phone"
+                        placeholder="Номер телефона"
+                        >
+                    </form>
+                    <a class="popup_go" href="">Отправить</a>
+                    <div class="popup__close-btn js-popup__close-btn">
+                        <img src="/resources/icons/close_form.png" alt="close_form">
+                    </div>
+
+                </div>
+            </div>
     </div>
     <div class="container">
         <h2>отзывы</h2>
@@ -123,7 +177,9 @@
             <li class="comment">
                 <p class="comment__title">Регина, проект 89 кв.м.</p>
                 <div class="comment__text">
-                    Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера!<br><br> Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
+                    Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера!
+                    <br><br> 
+                    Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
                 </div>
             </li>
             <li class="comment">
@@ -158,8 +214,8 @@
                 </div>
             </div>
             <div class="controls">
-                <div class="control-prev"></div>
-                <div class="control-next"></div>
+                <div class="control-item control-prev"></div>
+                <div class="control-item control-next"></div>
             </div>
         </div>
     </div>
@@ -168,28 +224,30 @@
         <div class="contacts">
             <div class="contacts__item">
                 <div class="phone">
-                    <a class="phone-number" href="tel:+79358954535">+7 935 895-45-35</a>
+                    <a class="contact-tag phone-number" href="tel:+79358954535">+7 935 895-45-35</a>
                 </div>
             </div>
             <div class="contacts__item">
                 <div class="mail">
-                    <a class="mail-adress" href="mailto:hello@mail.com">hello@mail.com</a>
+                    <a class="contact-tag mail-adress" href="mailto:hello@mail.com">hello@mail.com</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer">
         <div class="footer__inner">
-            <div class="footer_nav">
-                <a href="#about" class="footer-link footer-link-active">о нас</a>
-                <a href="#projects" class="footer-link">проекты</a>
-                <a href="#services" class="footer-link">услуги</a>
-                <a href="#contacts" class="footer-link">контакты</a>
-            </div>
+            <ul class="footer_nav">
+                <li href="#about" class="footer-link footer-link-active">о нас</li>
+                <li href="#projects" class="footer-link">проекты</li>
+                <li href="#services" class="footer-link">услуги</li>
+                <li href="#contacts" class="footer-link">контакты</li>
+            </ul>
         </div>
 
         <p class="footer-text">студия дизайна интерьера Метрика — 2023</p>
     </div>
     <script src="/scripts/gallery.js"></script>
+    <script src="/scripts/popup.js"></script>
+    <script src="/scripts/burger.js"></script>
 </body>
 </html>

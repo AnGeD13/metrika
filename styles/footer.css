@@ -25,8 +25,6 @@
   color: white;
   font-size: 18px;
   line-height: 24.6px;
-  letter-spacing: -0.03em;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -42,17 +40,9 @@
   color: white;
   font-size: 20px;
   line-height: 27.4px;
-  letter-spacing: -0.03em;
   opacity: 50%;
 }
 
-@media (max-width: 1199px) {
-}
-
-@media (max-width: 1050px) {
-}
-@media (max-width: 767px) {
-}
 @media (max-width: 500px) {
   .footer {
     padding-top: 30px;

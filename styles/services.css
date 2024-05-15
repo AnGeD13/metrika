@@ -20,7 +20,6 @@
   display: inline-block;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
 }
 
 .service-cost {
@@ -49,12 +48,9 @@
   background-color: #ad1818;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   text-align: center;
   text-decoration: none;
-}
-
-@media (max-width: 1199px) {
+  cursor: pointer;
 }
 
 @media (max-width: 1050px) {
